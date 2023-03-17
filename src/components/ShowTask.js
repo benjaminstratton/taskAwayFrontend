@@ -2,7 +2,7 @@ const ShowTask = ({ task, handleDelete, handleEdit }) => {
 
   return (
     <div className="hidden" id={task._id}>
-      <h4>Description:{task.description}</h4>
+      <h5>Description: {task.description}</h5>
       <h5>When: {task.date}</h5>
       <h5>Location: {task.location}</h5>
       <div className="btn-container mt-5">

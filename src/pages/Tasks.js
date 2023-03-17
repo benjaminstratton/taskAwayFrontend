@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 //Components
+import Navbar from "../components/Navbar";
 import Task from "../components/Task";
 import NewTask from "../components/NewTask";
 import EditTask from "../components/EditTask";
@@ -78,12 +79,10 @@ const Tasks = () => {
         <Col
           xs={4}
           xl={2}
-          className="vh-100 left-col m-5  border border-primary rounded"
+          className="vh-93 left-col m-5  border border-primary rounded"
         >
-          <Row className="h-25 p-4 d-flex flex-column ">
-            <Col className="category border border-primary rounded ">a</Col>
-            <Col className="category border border-primary rounded">b</Col>
-            <Col className="category border border-primary rounded">c</Col>
+          <Row className="h-25">
+            <Navbar />
           </Row>
           <Row className="h-25"></Row>
           <Row className="h-25"></Row>
@@ -102,23 +101,13 @@ const Tasks = () => {
           <Row className="top-row  m-5 h-25 border border-primary rounded">
             <Col xs={12} className="">
               <Row className="h-100 ">
+                <Col className=""></Col>
                 <Col className="d-flex align-items-center ">
                   <Col className="">
                     <img src="https://imgur.com/juTiRg4.png" alt="logo" />
                   </Col>
                 </Col>
                 <Col className=""></Col>
-                <Col>
-                  <Col className="category h-25 border border-primary rounded">
-                    a
-                  </Col>
-                  <Col className="category border border-primary rounded">
-                    b
-                  </Col>
-                  <Col className="category h-25 border border-primary rounded">
-                    c
-                  </Col>
-                </Col>
               </Row>
             </Col>
           </Row>
