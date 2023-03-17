@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.bg-primary {
+  width: calc(100vh / 6);
+}
+
+.hidden {
+  display: none;
+}
+
+.category {
+  background-color: #c6d7fd;
+}
+
+.left-col {
+  background-color: #dbe7fd;
+}
+
+.hidden {
+  text-align: left;
+  margin: 10px;
+}
+
+.task-right {
+  margin: 36px;
+  background-color: #dbe7fd;
+}
+
+.task-left {
+  margin: 36px;
+  background-color: #dbe7fd;
+  margin-right: -18px;
+}
+
+.top-row {
+  margin-bottom: 10px;
+  background-color: #dbe7fd;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.responsive {
+  max-width: 80%;
+  height: auto;
+  margin-left: 30px;
+}

@@ -1,0 +1,51 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.bg-primary {
+  width: calc(100vh / 6);
+}
+
+.hidden {
+  display: none;
+}
+
+.category {
+  border: solid 1px black;
+  margin: 10px;
+}
+
+.my-row {
+  border: 1px solid black;
+}
+
+.my-col {
+  border: 1px solid black;
+}
+
+.div-map-container {
+  width: 40rem;
+  height: 15rem;
+  margin: 1rem 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 300px;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
