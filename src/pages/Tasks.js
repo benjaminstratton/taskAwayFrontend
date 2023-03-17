@@ -81,7 +81,7 @@ const Tasks = () => {
           xl={2}
           className="vh-93 left-col m-5  border border-primary rounded"
         >
-          <Row className="h-25">
+          <Row className="h-25 nav-div">
             <Navbar />
           </Row>
           <Row className="h-25"></Row>
